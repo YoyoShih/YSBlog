@@ -10,6 +10,9 @@ Following is a learning list for me:
 * Node.js
 * Bootstrap
 * RWD
+  * Media queries
+  * Fluid grid
+  * Fluid image
 * pseudo-element
 * NoSQL
 * SASS/SCSS
