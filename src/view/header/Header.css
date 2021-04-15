@@ -1,0 +1,30 @@
+.header-container {
+  height: 18vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 6vw;
+  padding-right: 6vw;
+  background-color: white;
+}
+
+.header-logo {
+  width: 3.5vw;
+  cursor: pointer;
+}
+
+.header-blank {
+  flex-grow: 1;
+}
+
+.header-nav-bar {
+  height: 6vh;
+  width: 2.5vw;
+  cursor: pointer;
+}
+
+.nav-bar-line {
+  height: 0.56vmin;
+  border-width: 0;
+  background-color: black;
+}

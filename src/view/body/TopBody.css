@@ -1,0 +1,16 @@
+.top-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-body-video {
+  width: 65vw;
+}
+
+.top-body-title {
+  width: 85vw;
+  font-family: "Roboto Mono", monospace;
+  font-size: 4vmax;
+  text-align: left;
+}
