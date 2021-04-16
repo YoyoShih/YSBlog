@@ -13,12 +13,14 @@ class Header extends React.Component{
     render() {
         return (
             <header className="header-container">
-                <img src={logo} className="header-logo" />
-                <div className="header-blank"></div>
-                <div className="header-nav-bar" onClick={this.navBarOpen}>
-                    <hr className="nav-bar-line" />
-                    <hr className="nav-bar-line" />
-                    <hr className="nav-bar-line" />
+                <div className="header-inner-container">
+                    <img src={logo} className="header-logo" />
+                    <div className="header-blank"></div>
+                    <div className="header-nav-bar" onClick={this.navBarOpen}>
+                        <hr className="nav-bar-line" />
+                        <hr className="nav-bar-line" />
+                        <hr className="nav-bar-line" />
+                    </div>
                 </div>
             </header>
         )

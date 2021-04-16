@@ -5,9 +5,9 @@ import TopBody from './TopBody';
 class Body extends React.Component{
     render() {
         return (
-            <div className="body">
+            <main className="body">
                 <TopBody />
-            </div>
+            </main>
         )
     }
 }
