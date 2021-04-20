@@ -1,0 +1,17 @@
+.daily-life {
+  font-family: "Roboto Mono", monospace;
+}
+
+.daily-life-title {
+  width: 30vw;
+  height: 40vh;
+  padding-top: 4vh;
+  background-color: #ffa200;
+  letter-spacing: 0.3vw;
+}
+
+.daily-life-img {
+  width: 100vw;
+  height: 100vh;
+  background-color: aqua;
+}

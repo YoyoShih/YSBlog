@@ -1,13 +1,15 @@
 import React from 'react';
 import './Body.css';
 import TopBody from './TopBody';
+import DailyLife from './DailyLife';
 
 class Body extends React.Component{
     render() {
         return (
-            <main className="body">
+            <div className="body">
                 <TopBody />
-            </main>
+                <DailyLife/>
+            </div>
         )
     }
 }
