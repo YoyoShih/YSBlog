@@ -1,14 +1,14 @@
 /* display */
 .top-body-section-display:nth-child(1) {
-  animation: display 0.5s ease-in-out 0.1s 1 normal forwards;
+  animation: top-body-display 0.5s ease-in-out 0.1s 1 normal forwards;
 }
 
 .top-body-section-display:nth-child(2) {
-  animation: display 0.5s ease-in-out 0.3s 1 normal forwards;
+  animation: top-body-display 0.5s ease-in-out 0.3s 1 normal forwards;
 }
 
 /* keyframes */
-@keyframes display {
+@keyframes top-body-display {
   0% {
     opacity: 0;
     transform: translateY(100vh);

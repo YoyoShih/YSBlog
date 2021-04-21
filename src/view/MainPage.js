@@ -11,9 +11,6 @@ class MainPage extends React.Component{
 
         document.onwheel = this.handleWheel
     }
-    componentDidMount() {
-        windowOffset()
-    }
     handleWheel(e) {
         windowWheel(e)
     }

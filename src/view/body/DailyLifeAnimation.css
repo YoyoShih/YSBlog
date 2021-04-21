@@ -1,0 +1,14 @@
+/* display */
+.daily-life-img-display {
+  animation: daily-life-display 0.5s ease 0s 1 normal forwards;
+}
+
+/* keyframes */
+@keyframes daily-life-display {
+  0% {
+    top: 10vh;
+  }
+  100% {
+    top: -28vh;
+  }
+}

@@ -2,16 +2,28 @@
   font-family: "Roboto Mono", monospace;
 }
 
-.daily-life-title {
-  width: 30vw;
+.daily-life-title-container {
+  width: 20vw;
   height: 40vh;
-  padding-top: 4vh;
   background-color: #ffa200;
+}
+
+.daily-life-title {
+  width: 20vw;
+  padding-top: 4vh;
   letter-spacing: 0.3vw;
 }
 
+.daily-life-title-fixed {
+  position: fixed;
+  top: 0;
+  padding-top: 0;
+  color: white;
+  z-index: 1;
+}
+
 .daily-life-img {
+  position: relative;
+  top: 10vh;
   width: 100vw;
-  height: 100vh;
-  background-color: aqua;
 }

@@ -1,4 +1,5 @@
 .body {
+  height: 1000vh;
   padding-top: 18vh;
   display: flex;
   flex-direction: column;
