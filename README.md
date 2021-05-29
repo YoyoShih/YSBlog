@@ -8,7 +8,6 @@ Hopefully I will keep renewing my blog :)
 Following is a learning list for me:  
 * React
 * Node.js
-* Bootstrap
 * RWD
   * Media queries
   * Fluid grid
