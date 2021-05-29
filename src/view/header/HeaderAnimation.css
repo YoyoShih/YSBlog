@@ -11,6 +11,10 @@
   animation: clickthird 0.2s ease-in-out 0s 1 normal forwards;
 }
 
+.nav-bar-click-pause {
+  animation-play-state: paused;
+}
+
 /* header open / close */
 .header-container-open {
   animation: headeropen 0.2s cubic-bezier(0.16, 0.7, 0.48, 0.96) 0s 1 normal

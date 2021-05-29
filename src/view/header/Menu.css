@@ -1,0 +1,12 @@
+.header-menu-container {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 1vh;
+  position: fixed;
+  height: fit-content;
+  justify-content: center;
+  transform: translateY(-5vh);
+  width: 100vw;
+  background-color: white;
+  z-index: 2;
+}

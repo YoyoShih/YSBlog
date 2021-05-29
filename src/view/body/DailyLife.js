@@ -10,7 +10,7 @@ class MiddleBody extends React.Component{
                 <div className="daily-life-title-container">
                     <h2 className="daily-life-title">DAILY LIFE</h2>
                 </div>
-                <img src={bgimg} className="daily-life-img"></img>
+                <img src={bgimg} className="daily-life-img" />
             </div>
         )
     }

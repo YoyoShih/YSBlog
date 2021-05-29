@@ -1,5 +1,4 @@
 export const windowWheel = (e) => {
-    console.log(window.pageYOffset)
     let timer = null
 
     clearTimeout(timer)
