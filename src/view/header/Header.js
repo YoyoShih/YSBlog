@@ -17,11 +17,30 @@ class Header extends React.Component{
     navBarOpen() {
         let lines = document.querySelectorAll('.nav-bar-line')
         lines.forEach(e => {
-            e.classList.toggle('nav-bar-line-click')
-        });
+            if (this.state.navOpen) {
+                e.classList.add('nav-bar-line-close')
+                e.classList.remove('nav-bar-line-click')
+            }
+            else {
+                e.classList.add('nav-bar-line-click')
+                e.classList.remove('nav-bar-line-close')
+            }
+        })
         this.setState({
             navOpen: !this.state.navOpen
         })
+    }
+    componentDidUpdate(prevProps, prevState, snapshot) {
+        if (prevProps.open !== this.props.open) {
+            this.setState({
+                navOpen: false
+            })
+            let lines = document.querySelectorAll('.nav-bar-line')
+            lines.forEach(e => {
+                e.classList.remove('nav-bar-line-click')
+                e.classList.remove('nav-bar-line-close')
+            })
+        }
     }
     render() {
         return (

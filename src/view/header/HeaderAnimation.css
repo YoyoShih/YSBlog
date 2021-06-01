@@ -11,8 +11,16 @@
   animation: clickthird 0.2s ease-in-out 0s 1 normal forwards;
 }
 
-.nav-bar-click-pause {
-  animation-play-state: paused;
+.nav-bar-line-close:nth-child(1) {
+  animation: closefirst 0.2s ease-in-out 0s 1 normal forwards;
+}
+
+.nav-bar-line-close:nth-child(2) {
+  animation: closesecond 0.1s ease-in-out 0s 1 normal forwards;
+}
+
+.nav-bar-line-close:nth-child(3) {
+  animation: closethird 0.2s ease-in-out 0s 1 normal forwards;
 }
 
 /* header open / close */
@@ -50,6 +58,33 @@
   }
   100% {
     transform: translateY(-1.7vh) rotate(-45deg);
+  }
+}
+
+@keyframes closefirst {
+  0% {
+    transform: translateY(1.7vh) rotate(45deg);
+  }
+  100% {
+    transform: translateY(0) rotate(0);
+  }
+}
+
+@keyframes closesecond {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes closethird {
+  0% {
+    transform: translateY(-1.7vh) rotate(-45deg);
+  }
+  100% {
+    transform: translateY(0) rotate(0);
   }
 }
 

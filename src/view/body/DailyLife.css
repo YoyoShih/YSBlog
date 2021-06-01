@@ -1,5 +1,6 @@
 .daily-life {
   font-family: "Roboto Mono", monospace;
+  position: relative;
 }
 
 .daily-life-title-container {
@@ -26,4 +27,82 @@
   position: relative;
   top: 10vh;
   width: 100vw;
+}
+
+.daily-life-text {
+  color: white;
+  font-size: 4.2vh;
+  left: 10vw;
+  position: absolute;
+  text-align: left;
+  top: 80vh;
+  width: 40vw;
+}
+
+.daily-life-link {
+  align-items: center;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  font-size: 4.2vh;
+  font-weight: 900;
+  flex-direction: row;
+  left: 10vw;
+  letter-spacing: 0.8vh;
+  position: absolute;
+  text-align: left;
+  top: 100vh;
+}
+
+.daily-life-link:hover {
+  color: #ffa200;
+}
+
+.link-not-focus {
+  background-color: white;
+}
+
+.link-focus {
+  background-color: #ffa200;
+}
+
+.daily-life-link-block {
+  border-radius: 0.5vh;
+  height: 4vw;
+  margin-right: 2vw;
+  overflow: hidden;
+  width: 4vw;
+}
+
+.arrow {
+  height: 2vw;
+  padding-left: 2.2vh;
+  padding-top: 2vh;
+  width: 2vw;
+}
+
+.arrow-focus1 {
+  animation: arrow-move1 0.2s ease-in-out 0s 1 normal forwards;
+}
+
+.arrow-focus2 {
+  animation: arrow-move2 0.2s ease-in-out 0s 1 normal forwards;
+}
+
+@keyframes arrow-move1 {
+  0% {
+    transform: translateX(0vw);
+  }
+  100% {
+    transform: translateX(4vw);
+  }
+}
+
+@keyframes arrow-move2 {
+  0% {
+    transform: translateX(-4vw);
+  }
+  100% {
+    transform: translateX(0vw);
+  }
 }

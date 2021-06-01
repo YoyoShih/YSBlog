@@ -14,6 +14,8 @@ export const windowWheel = (e) => {
         }
         windowOffset()
     }, 150)
+
+    return e.deltaY <= 0
 }
 
 export const windowOffset = () => {
@@ -36,9 +38,11 @@ export const windowOffset = () => {
     }
     else if (window.pageYOffset > 950 && window.pageYOffset < 1540) {
         dtitle.classList.remove('daily-life-title-fixed')
+        dtitle.innerHTML = "DAILY LIFE"
         dimg.classList.add('daily-life-img-display')
     }
     else if (window.pageYOffset > 1540 && window.pageYOffset < 2000) {
         dtitle.classList.add('daily-life-title-fixed')
+        dtitle.innerHTML = "VOLLEYBALL"
     }
 }
