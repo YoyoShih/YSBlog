@@ -1,0 +1,65 @@
+.volleyball {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.volleyball-top-img {
+  width: 80vw;
+}
+
+.volleyball-title {
+  color: #00caaf;
+  font-family: "Roboto Mono", monospace;
+  font-size: 4vw;
+  font-weight: bold;
+  margin-top: 15vh;
+  text-align: left;
+  width: 85vw;
+}
+
+.volleyball-subtitle {
+  font-family: "Roboto Mono", monospace;
+  font-size: 4vw;
+  font-weight: bold;
+  margin-top: 0vh;
+  margin-bottom: 15vh;
+  text-align: left;
+  width: 85vw;
+}
+
+.volleyball-body {
+  align-items: center;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  font-family: "Noto Sans KR", sans-serif;
+  height: 200vh;
+  padding-top: 10vh;
+  width: 100vw;
+}
+
+.volleyball-body-title {
+  color: #00caaf;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.8vw;
+  font-weight: bold;
+  text-align: left;
+  width: 85vw;
+}
+
+.volleyball-body-subtitle {
+  font-size: 2vw;
+  font-weight: bold;
+  letter-spacing: 0.4vw;
+  text-align: left;
+  width: 42vw;
+}
+
+.volleyball-body-context {
+  font-size: 1.6vw;
+  font-weight: bold;
+  letter-spacing: 0.3vw;
+  text-align: left;
+  width: 42vw;
+}

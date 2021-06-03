@@ -24,9 +24,18 @@
 }
 
 .daily-life-img {
+  width: 100vw;
+}
+
+.daily-life-img-not-fixed {
   position: relative;
   top: 10vh;
-  width: 100vw;
+}
+
+.daily-life-img-fixed {
+  left: 0;
+  position: fixed;
+  top: 0;
 }
 
 .daily-life-text {

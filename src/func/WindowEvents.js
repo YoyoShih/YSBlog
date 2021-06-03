@@ -12,13 +12,20 @@ export const windowWheel = (e) => {
             header.classList.remove('header-container-open')
             header.classList.add('header-container-close')
         }
-        windowOffset()
+        let body = document.querySelector('.body')
+        switch (body.id) {
+            case 'daily':
+                windowOffsetDailyLife()
+                break;
+            default:
+                break;
+        }
     }, 150)
 
     return e.deltaY <= 0
 }
 
-export const windowOffset = () => {
+const windowOffsetDailyLife = () => {
     let sec = document.querySelector('.top-body-section')
     let dimg = document.querySelector('.daily-life-img')
     let dtitle = document.querySelector('.daily-life-title')
@@ -40,9 +47,18 @@ export const windowOffset = () => {
         dtitle.classList.remove('daily-life-title-fixed')
         dtitle.innerHTML = "DAILY LIFE"
         dimg.classList.add('daily-life-img-display')
+        dimg.classList.add('daily-life-img-not-fixed')
+        dimg.classList.remove('daily-life-img-fixed')
     }
-    else if (window.pageYOffset > 1540 && window.pageYOffset < 2000) {
+    else if (window.pageYOffset > 1540 && window.pageYOffset < 1630) {
         dtitle.classList.add('daily-life-title-fixed')
         dtitle.innerHTML = "VOLLEYBALL"
+        dimg.classList.add('daily-life-img-not-fixed')
+        dimg.classList.remove('daily-life-img-fixed')
+    }
+    else if (window.pageYOffset > 1630 && window.pageYOffset < 2000) {
+        dimg.classList.remove('daily-life-img-not-fixed')
+        dimg.classList.remove('daily-life-img-display')
+        dimg.classList.add('daily-life-img-fixed')
     }
 }
