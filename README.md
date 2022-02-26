@@ -5,8 +5,9 @@ And the code will be put in the "master" branch.
 The only purpose is that I want to practice React, Node.js, Bootstrap, etc.  
 Enhancing my webapp coding skill!  
 Hopefully I will keep renewing my blog :)
+(hmmm...it seens like I fail...)
   
-Following is a learning list for me:  
+Following is a learning list for myself:  
 * React
 * Node.js
 * RWD
