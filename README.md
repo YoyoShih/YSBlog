@@ -8,12 +8,8 @@ Hopefully I will keep renewing my blog :)
 (hmmm...it seens like I fail...)
   
 Following is a learning list for myself:  
-* React
-* Node.js
 * RWD
   * Media queries
   * Fluid grid
   * Fluid image
-* pseudo-element
-* NoSQL
 * SASS/SCSS
